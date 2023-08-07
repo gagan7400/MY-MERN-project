@@ -1,0 +1,70 @@
+.nav{
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  text-decoration: none;
+  background-color:  rgb(250, 28, 28);
+  
+}
+ #dropdon{
+  background-color: rgb(200, 40, 40);
+  padding: 15px;
+  width: 250px;
+  position: relative;
+}
+#item{
+  
+  /* display: none; */
+ height: 0%;  
+ 
+ overflow: hidden;
+ position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100%;
+  transition: height 0.5s ease-in-out;
+}
+
+.item{
+  text-decoration: none;
+  color: black;
+  font-size: large;
+  font-weight: 300;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#dropdon:hover #item{
+ height: fit-content;
+ background-color:honeydew;
+ width: 100%;
+  
+} 
+
+
+.scrollmenu {
+    background-color:  rgb(250, 28, 28);
+    overflow: auto;
+    white-space: nowrap;
+    height: 55px;
+  
+  }
+  
+  .scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+.scrollmenu a:hover {
+    background-color: rgb(200, 40, 40);
+    color: white;
+  }
+
+  .cart{
+    background-color: rgb(200, 40, 40);
+    padding: 15px;
+  }
+
+ 
